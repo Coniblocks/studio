@@ -3,13 +3,13 @@
 .menu {
     position: absolute;
     border: 1px solid $ui-black-transparent;
-    border-radius: 0 0 8px 8px;
-    background-color: $menu-bar-background;
-    padding: 0;
+    border-radius: 12 12px 12px 12px;
+    background-color: $motion-primary;
+    padding: 2;
     margin: 0;
     min-width: 186px;
     overflow: visible;
-    box-shadow: 0 8px 8px 0 $shadow;
+    box-shadow: 8px 8px 8px 8px $shadow;
 }
 
 .menu.left {
@@ -34,7 +34,7 @@
 .menu-item.active,
 .menu-item:hover,
 .menu-item.expanded {
-    background-color: $ui-black-transparent;
+    background-color: $motion-primary;
 }
 
 .menu-item.hoverable {
@@ -42,7 +42,7 @@
 }
 
 .menu-section {
-    border-top: 1px solid $ui-black-transparent;
+    border-top: 1px solid $motion-primary;
 }
 
 .submenu {
@@ -67,7 +67,7 @@
     position: relative;
     overflow-y: auto;
     overflow-x: hidden;
-    scrollbar-color: $menu-bar-foreground $menu-bar-background;
+    scrollbar-color: #ffffff;
     border-radius: 8px;
 }
 
@@ -86,11 +86,11 @@
 }
 
 .submenu > .menu::-webkit-scrollbar-track {
-    background: $menu-bar-background;
+    background: #ffffff;
 }
 
 .submenu > .menu::-webkit-scrollbar-thumb {
-    background-color: $menu-bar-foreground;
+    background-color: #ffffff;
     border-radius: 12px;
-    border: 3px solid $menu-bar-background;
+    border: 3px solid #ffffff;
 }
