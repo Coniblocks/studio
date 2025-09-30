@@ -17,7 +17,9 @@ const guiColors = {
 
     'text-primary': '#eeeeee',
 
-    'menu-bar-background': '#333333',
+    'menu-bar-background': '#111111',
+    'menu-bar-background-image': 'none',
+    'menu-bar-foreground': '#ffffffff',
 
     'assets-background': '#111111',
 
