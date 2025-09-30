@@ -3,7 +3,7 @@
 .menu {
     position: absolute;
     border: 1px solid $ui-black-transparent;
-    border-radius: 12 12px 12px 12px;
+    border-radius: 12px 12px 12px 12px;
     background-color: $motion-primary;
     padding: 2;
     margin: 0;
