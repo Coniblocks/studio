@@ -1,7 +1,9 @@
 @import "../../css/units.css";
+@import "../../css/colors.css";
 
 .outlined-button {
     cursor: pointer;
+    background-color: $motion-primary;
     border-radius: 999px;
     font-weight: bold;
     display: flex;
