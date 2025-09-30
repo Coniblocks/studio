@@ -56,7 +56,9 @@
 
 .menu-bar-item {
     background-color: $motion-primary;
+    height: $menu-bar-button-size;
     border-radius: 999px;
+    border: 2px hsla(255,255,255,0.3);
     display: flex;
     text-decoration: none;
     user-select: none;
@@ -64,7 +66,6 @@
     position: relative;
     align-items: center;
     white-space: nowrap;
-    height: $menu-bar-height;
 }
 
 .menu-bar-item.hoverable {
